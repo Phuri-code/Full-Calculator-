@@ -83,62 +83,91 @@ public class Controller {
 
     @FXML
     void on_1(ActionEvent event) {
+        user_input.set_one();
+        label_display.setText(user_input.get_variable());
 
     }
 
     @FXML
     void on_2(ActionEvent event) {
-
+        user_input.set_two();
+        label_display.setText(user_input.get_variable());   
     }
 
     @FXML
     void on_3(ActionEvent event) {
+        user_input.set_three();
+        label_display.setText(user_input.get_variable());   
 
     }
 
     @FXML
     void on_4(ActionEvent event) {
+        user_input.set_four();
+        label_display.setText(user_input.get_variable());   
 
     }
 
     @FXML
     void on_5(ActionEvent event) {
+        user_input.set_five();
+        label_display.setText(user_input.get_variable());   
 
     }
 
     @FXML
     void on_6(ActionEvent event) {
+        user_input.set_six();
+        label_display.setText(user_input.get_variable());   
 
     }
 
     @FXML
     void on_7(ActionEvent event) {
+        user_input.set_seven();
+        label_display.setText(user_input.get_variable());
 
     }
 
     @FXML
     void on_8(ActionEvent event) {
+        user_input.set_eight();
+        label_display.setText(user_input.get_variable());
 
     }
 
     @FXML
     void on_9(ActionEvent event) {
 
+        user_input.set_nine();
+        label_display.setText(user_input.get_variable());
     }
 
     @FXML
     void on_add(ActionEvent event) {
+         clear_bs.set_variable(user_input.get_variable());
+        clear_bs.set_add();
+        user_input.set_variable(clear_bs.get_variable());
+        label_display.setText(clear_bs.get_variable());
+
 
     }
 
     @FXML
     void on_backspace(ActionEvent event) {
+        clear_bs.set_variable(user_input.get_variable());
+        clear_bs.set_backspace();
+        user_input.set_variable(clear_bs.get_variable());
+        label_display.setText(clear_bs.get_variable());
 
     }
 
     @FXML
     void on_clear(ActionEvent event) {
 
+        clear_bs.set_variable(user_input.get_variable());
+        clear_bs.set_clear();
+        label_display.setText(clear_bs.get_variable());
     }
 
     @FXML
