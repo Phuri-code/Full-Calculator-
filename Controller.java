@@ -173,28 +173,7 @@ public class Controller {
 
     @FXML
     void initialize() {
-        assert btn_0 != null : "fx:id=\"btn_0\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_1 != null : "fx:id=\"btn_1\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_2 != null : "fx:id=\"btn_2\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_3 != null : "fx:id=\"btn_3\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_4 != null : "fx:id=\"btn_4\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_5 != null : "fx:id=\"btn_5\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_6 != null : "fx:id=\"btn_6\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_7 != null : "fx:id=\"btn_7\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_8 != null : "fx:id=\"btn_8\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_9 != null : "fx:id=\"btn_9\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_add != null : "fx:id=\"btn_add\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_backspace != null : "fx:id=\"btn_backspace\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_clear != null : "fx:id=\"btn_clear\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_decimal != null : "fx:id=\"btn_decimal\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_divide != null : "fx:id=\"btn_divide\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_equals != null : "fx:id=\"btn_equals\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_multiply != null : "fx:id=\"btn_multiply\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_percent != null : "fx:id=\"btn_percent\" was not injected: check your FXML file 'view.fxml'.";
-        assert btn_subtract != null : "fx:id=\"btn_subtract\" was not injected: check your FXML file 'view.fxml'.";
-        assert label_display != null : "fx:id=\"label_display\" was not injected: check your FXML file 'view.fxml'.";
-        assert label_display_backg != null : "fx:id=\"label_display_backg\" was not injected: check your FXML file 'view.fxml'.";
-
+       
     }
 
 }

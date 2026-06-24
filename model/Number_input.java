@@ -61,7 +61,7 @@ public class Number_input {
         System.out.println(number_input.get_variable());
         Memory m = new Memory();
         m.set_first_variable(number_input.get_variable());
-        System.out.println(m.get_first_variable());
+        System.out.println(m.get_first_variab());
 
 
     }
